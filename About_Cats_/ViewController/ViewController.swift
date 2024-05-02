@@ -18,8 +18,6 @@ class ViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        view.backgroundColor = UIColor(red: 245/255, green: 245/255, blue: 245/255, alpha: 1.0)
-        
         setupUI()
         fetchCatFacts()
     }
@@ -27,6 +25,7 @@ class ViewController: UIViewController {
     // MARK: - UI Setup
     
     private func setupUI() {
+        view.backgroundColor = UIColor(red: 245/255, green: 245/255, blue: 245/255, alpha: 1.0)
         let titleLabel = UILabel()
         titleLabel.text = "About Cat Facts"
         titleLabel.font = UIFont.boldSystemFont(ofSize: 24)
