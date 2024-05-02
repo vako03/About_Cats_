@@ -1,0 +1,14 @@
+{
+  "pins" : [
+    {
+      "identity" : "mylibraryaboutcats",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/vako03/MyLibraryAboutCats.git",
+      "state" : {
+        "branch" : "main",
+        "revision" : "2c4910c09acdef854ea938134f9b8be791e26e59"
+      }
+    }
+  ],
+  "version" : 2
+}

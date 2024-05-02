@@ -10,9 +10,10 @@
 		3ACE44B92BE36ABA0041E818 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ACE44B82BE36ABA0041E818 /* AppDelegate.swift */; };
 		3ACE44BB2BE36ABA0041E818 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ACE44BA2BE36ABA0041E818 /* SceneDelegate.swift */; };
 		3ACE44BD2BE36ABA0041E818 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ACE44BC2BE36ABA0041E818 /* ViewController.swift */; };
-		3ACE44C02BE36ABA0041E818 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3ACE44BE2BE36ABA0041E818 /* Main.storyboard */; };
 		3ACE44C22BE36AC00041E818 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3ACE44C12BE36AC00041E818 /* Assets.xcassets */; };
 		3ACE44C52BE36AC00041E818 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3ACE44C32BE36AC00041E818 /* LaunchScreen.storyboard */; };
+		3ACE44CE2BE36ADB0041E818 /* MyLibraryAboutCats in Frameworks */ = {isa = PBXBuildFile; productRef = 3ACE44CD2BE36ADB0041E818 /* MyLibraryAboutCats */; };
+		3ACE44D42BE37D3B0041E818 /* CustomCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ACE44D32BE37D3B0041E818 /* CustomCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,10 +21,10 @@
 		3ACE44B82BE36ABA0041E818 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3ACE44BA2BE36ABA0041E818 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		3ACE44BC2BE36ABA0041E818 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		3ACE44BF2BE36ABA0041E818 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3ACE44C12BE36AC00041E818 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3ACE44C42BE36AC00041E818 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3ACE44C62BE36AC00041E818 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3ACE44D32BE37D3B0041E818 /* CustomCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +32,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3ACE44CE2BE36ADB0041E818 /* MyLibraryAboutCats in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -59,10 +61,10 @@
 				3ACE44B82BE36ABA0041E818 /* AppDelegate.swift */,
 				3ACE44BA2BE36ABA0041E818 /* SceneDelegate.swift */,
 				3ACE44BC2BE36ABA0041E818 /* ViewController.swift */,
-				3ACE44BE2BE36ABA0041E818 /* Main.storyboard */,
 				3ACE44C12BE36AC00041E818 /* Assets.xcassets */,
 				3ACE44C32BE36AC00041E818 /* LaunchScreen.storyboard */,
 				3ACE44C62BE36AC00041E818 /* Info.plist */,
+				3ACE44D32BE37D3B0041E818 /* CustomCell.swift */,
 			);
 			path = About_Cats_;
 			sourceTree = "<group>";
@@ -83,6 +85,9 @@
 			dependencies = (
 			);
 			name = About_Cats_;
+			packageProductDependencies = (
+				3ACE44CD2BE36ADB0041E818 /* MyLibraryAboutCats */,
+			);
 			productName = About_Cats_;
 			productReference = 3ACE44B52BE36ABA0041E818 /* About_Cats_.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +116,9 @@
 				Base,
 			);
 			mainGroup = 3ACE44AC2BE36ABA0041E818;
+			packageReferences = (
+				3ACE44CC2BE36ADB0041E818 /* XCRemoteSwiftPackageReference "MyLibraryAboutCats" */,
+			);
 			productRefGroup = 3ACE44B62BE36ABA0041E818 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -127,7 +135,6 @@
 			files = (
 				3ACE44C52BE36AC00041E818 /* LaunchScreen.storyboard in Resources */,
 				3ACE44C22BE36AC00041E818 /* Assets.xcassets in Resources */,
-				3ACE44C02BE36ABA0041E818 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -140,6 +147,7 @@
 			files = (
 				3ACE44BD2BE36ABA0041E818 /* ViewController.swift in Sources */,
 				3ACE44B92BE36ABA0041E818 /* AppDelegate.swift in Sources */,
+				3ACE44D42BE37D3B0041E818 /* CustomCell.swift in Sources */,
 				3ACE44BB2BE36ABA0041E818 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -147,14 +155,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		3ACE44BE2BE36ABA0041E818 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				3ACE44BF2BE36ABA0041E818 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		3ACE44C32BE36AC00041E818 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -291,7 +291,6 @@
 				INFOPLIST_FILE = About_Cats_/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -318,7 +317,6 @@
 				INFOPLIST_FILE = About_Cats_/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -356,6 +354,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		3ACE44CC2BE36ADB0041E818 /* XCRemoteSwiftPackageReference "MyLibraryAboutCats" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/vako03/MyLibraryAboutCats.git";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		3ACE44CD2BE36ADB0041E818 /* MyLibraryAboutCats */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 3ACE44CC2BE36ADB0041E818 /* XCRemoteSwiftPackageReference "MyLibraryAboutCats" */;
+			productName = MyLibraryAboutCats;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 3ACE44AD2BE36ABA0041E818 /* Project object */;
 }
