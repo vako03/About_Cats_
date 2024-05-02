@@ -27,7 +27,6 @@ class ViewController: UIViewController {
     // MARK: - UI Setup
     
     private func setupUI() {
-        // Add a label for the title "About Cats"
         let titleLabel = UILabel()
         titleLabel.text = "About Cat Facts"
         titleLabel.font = UIFont.boldSystemFont(ofSize: 24)
@@ -40,7 +39,6 @@ class ViewController: UIViewController {
             titleLabel.topAnchor.constraint(equalTo: view.safeAreaLayoutGuide.topAnchor, constant: 16),
             titleLabel.leadingAnchor.constraint(equalTo: view.leadingAnchor, constant: 16),
             titleLabel.trailingAnchor.constraint(equalTo: view.trailingAnchor, constant: -16),
-            // You can adjust the height of the title label as needed
             titleLabel.heightAnchor.constraint(equalToConstant: 40)
         ])
         
